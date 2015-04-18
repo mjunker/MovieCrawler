@@ -1,0 +1,22 @@
+<html ng-app="movieIndex">
+
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+</head>
+
+<body>
+
+<div ng-controller="movieController" data-ng-init="init()">
+
+    <h2>Overview</h2>
+
+    <p><input type="number" min="1900" max="2015" ng-model="yearFrom" cols="40"/></p>
+    <p><input type="number" min="1900" max="2015" ng-model="yearTo" cols="40"/></p>
+
+
+</div>
+
+<script src="javascript/movieIndexController.js"></script>
+
+</body>
+</html>
